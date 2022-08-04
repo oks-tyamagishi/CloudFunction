@@ -4,8 +4,11 @@ spring:
     url: jdbc:postgresql://my-vedadev.postgres.database.azure.com:5432/veda
     username: njt_005@my-vedadev
     password: njt_005
-  logging:
-    level:
-      root: DEBUG
-      com.example.repository: DEBUG
-      com.example: DEBUG
+logging:
+  level:
+    root: DEBUG
+    com.example.repository: DEBUG
+    com.example: DEBUG
+application:
+  logName: log.log
+  logPath: C:\njt\log\
