@@ -41,7 +41,8 @@
 
 ### 参考リンク
 [「AzureWebJobsStorage」の設定に必要なBlobストレージの作成 ](https://www.purin-it.com/azure-blob-storage)  
-[「AzureWebJobsStorage」の設定値の取得（local.settings.jsonの設定内容を参照）](https://www.purin-it.com/azure-functions-timer-trigger-java)
+[Blobストレージをローカルでエミュレート](https://zenn.dev/k_maru/articles/using_azurite_to_develop_azure_functions_on_local)  
+[「AzureWebJobsStorage」の設定値の取得（local.settings.jsonの設定内容を参照）](https://www.purin-it.com/azure-functions-timer-trigger-java)  
 
 
 
