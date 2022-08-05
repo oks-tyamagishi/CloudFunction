@@ -9,7 +9,7 @@
             <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-
+    <!--
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${AP_LOG_PATH}/${AP_LOG_NAME}</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -20,10 +20,9 @@
             <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-
+    -->
     <root level="INFO">
         <appender-ref ref="STDOUT"/>
-        <appender-ref ref="FILE"/>
     </root>
 
 </configuration>
