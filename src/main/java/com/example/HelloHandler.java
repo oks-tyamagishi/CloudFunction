@@ -8,6 +8,8 @@ import org.springframework.cloud.function.adapter.azure.FunctionInvoker;
 
 public class HelloHandler extends FunctionInvoker<String, Greeting> {
 
+    public HelloHandler(){}
+
     public HelloHandler(Class<?> configurationClass) {
         super(configurationClass);
     }
