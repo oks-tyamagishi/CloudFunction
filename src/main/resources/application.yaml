@@ -6,7 +6,7 @@ spring:
     password: njt_005
 logging:
   level:
-    root: DEBUG
+    root: INFO
     com.example.repository: DEBUG
     com.example: DEBUG
 application:
