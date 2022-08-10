@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=;AccountKey=Azure Storageのアカウントキーを指定",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=stmyveda;AccountKey=3XxcR1xkix1w3/WaRemj3Aas6izPpDEfRv3xeFQazY4UZGakl+p26O5zN7SWWu7TEW9gKdGvvWX2E2DjvykvMw==",
     "FUNCTIONS_WORKER_RUNTIME": "java",
     "MAIN_CLASS":"com.example.DemoApplication",
     "AzureWebJobsDashboard": ""
